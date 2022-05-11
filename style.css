@@ -70,7 +70,8 @@ h1 {
 
 h3 {
     font-size: 18px;
-    color: #E5E7EB
+    color: #E5E7EB;
+    font-weight: normal;
 }
 
 .heroImage {
