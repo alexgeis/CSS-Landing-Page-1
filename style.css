@@ -10,8 +10,75 @@ body {
     padding:0;
 }
 
-nav,
+header,
 .footer {
 background-color: #1F2937;
 color: white;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.headerDiv {
+    min-width: 800px;
+}
+
+nav {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4%;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+#headerLogo {
+    font-size: 24px;
+    color: #F9FAF8
+}
+
+#heroSignup {
+    background-color: #3882F6;
+    border-radius: 5px;
+    padding: 4px 20px;
+    color: white;
+    border: none;
+}
+
+hero {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4%;
+}
+
+.heroContent {
+    max-width: 400px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin-bottom: 0;
+}
+
+h3 {
+    font-size: 18px;
+    color: #E5E7EB
+}
+
+.heroImage {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.heroImage img {
+    padding: 20px;
 }
