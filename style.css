@@ -3,8 +3,15 @@
 }
 
 body {
-	background-color: grey;
 	font-family: Georgia, 'Times New Roman', Times, serif;
     display: flex;
     flex-direction: column;
+    margin:0;
+    padding:0;
+}
+
+nav,
+.footer {
+background-color: #1F2937;
+color: white;
 }
