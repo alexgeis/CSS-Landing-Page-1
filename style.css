@@ -3,11 +3,12 @@
 }
 
 body {
-	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-family: Roboto, serif;
     display: flex;
     flex-direction: column;
     margin:0;
     padding:0;
+    min-height: 100vh;
 }
 
 header,
@@ -58,7 +59,7 @@ hero {
 }
 
 .heroContent {
-    max-width: 400px;
+    max-width: 900px;
 }
 
 h1 {
@@ -89,6 +90,7 @@ h3 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 4%;
 }
 
 h2 {
@@ -101,7 +103,7 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
-    max-width: 1000px;
+    max-width: 900px;
 }
 
 .card {
@@ -124,5 +126,74 @@ h2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #E5E7EB ;
+    background-color: #E5E7EB;
+    padding: 5%;
+}
+
+.quoteDiv {
+    max-width: 900px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.author {
+    font-size: 24px;
+    color: #1F2937;
+    font-weight: bold;
+}
+
+.ctaSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 5px;
+    width: 900px;
+    padding: 15px;
+    margin: 5px 20px;
+}
+.ctaContent {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 70%;
+}
+
+h4{
+    color: white;
+    font-size: 24px;
+}
+.ctaContent p {
+    color: white;
+    font-size: 18px;
+}
+
+.ctaButton {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex: 1 0 30%;
+}
+
+#contactButton {
+    background-color: #3882F6;
+    border-radius: 5px;
+    padding: 4px 20px;
+    color: white;
+    border: white solid 2px;
+}
+
+.footer {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
