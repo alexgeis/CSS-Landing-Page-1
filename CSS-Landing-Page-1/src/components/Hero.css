@@ -1,0 +1,52 @@
+#heroWrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 40px;
+	margin-bottom: 1rem;
+}
+
+#heroContent {
+	max-width: 900px;
+}
+#heroContent > * {
+	margin-bottom: 0.7rem;
+}
+
+h1 {
+	font-size: 48px;
+	font-weight: bolder;
+	color: #f9faf8;
+}
+
+h3 {
+	font-size: 18px;
+	color: #e5e7eb;
+	font-weight: normal;
+}
+#heroSignup {
+	font-size: 18px;
+	background-color: #3882f6;
+	border-radius: 5px;
+	padding: 4px 20px;
+	color: white;
+	border: none;
+}
+
+.heroImage {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	object-fit: cover;
+}
+
+.heroImage img {
+	padding: 20px;
+}
+
+@media only screen and (min-width: 800px) {
+	#heroWrapper {
+		flex-direction: row;
+	}
+}
