@@ -2,9 +2,7 @@
 	position: sticky;
 	width: 100%;
 	top: 0;
-	display: flex;
 	padding: 20px 0;
-	justify-content: space-between;
 	background-color: var(--backgroundDark);
 	z-index: 1001;
 }
