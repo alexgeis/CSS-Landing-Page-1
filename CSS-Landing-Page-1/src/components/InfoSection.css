@@ -1,0 +1,37 @@
+#randoInfoSection {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#randoInfoSection > * {
+	padding-bottom: 1rem;
+}
+
+h2 {
+	font-size: 36px;
+	font-weight: bolder;
+	color: var(--light-color);
+}
+
+.cardSection {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 15px;
+	max-width: 900px;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	flex: 1;
+}
+
+.box {
+	border: #3882f6 solid 5px;
+	border-radius: 10px;
+	height: 150px;
+	width: 150px;
+}

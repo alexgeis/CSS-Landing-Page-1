@@ -3,7 +3,7 @@
 	width: 100%;
 	top: 0;
 	padding: 20px 0;
-	background-color: var(--backgroundDark);
+	background-color: var(--back-color);
 	z-index: 1001;
 }
 

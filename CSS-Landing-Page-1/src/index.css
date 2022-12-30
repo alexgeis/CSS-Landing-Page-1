@@ -27,9 +27,12 @@ body {
 	flex-direction: column;
 	/* place-items: center; */
 	min-width: 320px;
+	max-width: 1000px;
 	min-height: 100vh;
 	background-color: var(--back-color);
 	color: var(--light-color);
+	margin: 0 auto;
+	padding: 0.5rem;
 }
 
 h1 {
