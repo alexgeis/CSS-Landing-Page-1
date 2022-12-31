@@ -1,0 +1,29 @@
+#headerWrapper {
+	position: sticky;
+	width: 100%;
+	top: 0;
+	padding: 20px;
+	background-color: var(--back-color);
+	z-index: 1001;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 1rem;
+}
+
+#headerLogo {
+	font-size: 24px;
+	color: #f9faf8;
+}
+
+ul {
+	list-style: none;
+	display: flex;
+	gap: 20px;
+}
+ul li a {
+	text-decoration: none;
+}

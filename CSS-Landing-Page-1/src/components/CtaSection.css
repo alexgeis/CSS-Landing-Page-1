@@ -1,0 +1,48 @@
+#ctaSection {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 40px;
+}
+#cta {
+	display: flex;
+	align-items: center;
+	background-color: #3882f6;
+	border-radius: 8px;
+	width: 900px;
+	padding: 15px;
+	margin: 50px 20px;
+}
+#ctaContent {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	padding-left: 50px;
+}
+#ctaContent h4 {
+	color: white;
+	font-size: 24px;
+	margin-bottom: 5px;
+}
+#ctaContent p {
+	color: white;
+	font-size: 18px;
+	text-align: left;
+	padding-top: 0;
+	margin-top: 0;
+}
+
+#ctaBtnWrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex: 1;
+}
+
+#ctaBtn {
+	background-color: #3882f6;
+	border-radius: 5px;
+	padding: 4px 20px;
+	color: white;
+	border: white solid 2px;
+}

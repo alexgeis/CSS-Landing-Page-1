@@ -1,0 +1,26 @@
+#quoteSection {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #e5e7eb;
+	padding: 5%;
+}
+
+#quoteDiv {
+	max-width: 900px;
+}
+
+#quoteTxt {
+	font-size: 36px;
+	font-style: italic;
+	color: #1f2937;
+	line-height: 2.3rem;
+	margin-bottom: 1rem;
+}
+
+#quoteAuthor {
+	font-size: 24px;
+	color: #1f2937;
+	font-weight: bold;
+}
