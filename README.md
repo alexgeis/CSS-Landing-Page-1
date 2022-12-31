@@ -22,7 +22,7 @@ Search and replace keywords: `deployed_link`, `product-screenshot`, `CSS-Landing
 <br />
 <div align="center">
   <a href="https://github.com/alexgeis/CSS-Landing-Page-1">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="CSS-Landing-Page-1/public/CSS3-logo.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">CSS Landing Page</h3>
@@ -33,7 +33,7 @@ Search and replace keywords: `deployed_link`, `product-screenshot`, `CSS-Landing
     <a href="https://github.com/alexgeis/CSS-Landing-Page-1"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a class="deployed_link" href="https://github.com/alexgeis/CSS-Landing-Page-1">View Demo</a>
+    <a class="deployed_link" href="css-landing-page.netlify.app">View Demo</a>
     ·
     <a href="https://github.com/alexgeis/CSS-Landing-Page-1/issues">Report Bug</a>
     ·
@@ -72,7 +72,7 @@ Search and replace keywords: `deployed_link`, `product-screenshot`, `CSS-Landing
 ## About The Project
 
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
-<a class="deployed_link" href="https://example.com">
+<a class="deployed_link" href="css-landing-page.netlify.app">
 <p align="center">
 <img id="product-screenshot" src="CSS-Landing-Page-1/src/assets/CSS-Landing-Page.png" alt="CSS Landing Page Screenshot"
 style="display: block;
@@ -102,7 +102,7 @@ style="display: block;
 
 <!-- GETTING STARTED -->
 
-## Getting Started
+<!-- ## Getting Started
 
 Instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
@@ -114,7 +114,7 @@ This is an example of how to list things you need to use the software and how to
 - npm
   ```sh
   npm install npm@latest -g
-  ```
+  ``` -->
 
 <!-- PREREQ EXAMPLE
 Packages used in this project: -->
@@ -130,7 +130,7 @@ Packages used in this project: -->
   npm install npm@latest css-loader html-loader html-webpack-plugin style-loader webpack webpack-cli webpack-dev-server -g
   ``` -->
 
-### Installation
+<!-- ### Installation
 
 1. Clone the repo
    ```sh
@@ -164,17 +164,17 @@ Packages used in this project: -->
    const API_KEY = "ENTER YOUR API";
    ``` -->
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="#top">back to top</a>)</p> -->
 
 <!-- USAGE EXAMPLES -->
 
-## Usage
+<!-- ## Usage
 
-Useful examples of how a project can be used. Additional screenshots, code examples, demos, and/or links to more resources.
+Simple landing page
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="#top">back to top</a>)</p> -->
 
 <!-- ROADMAP -->
 
@@ -237,7 +237,8 @@ Project Link: [https://github.com/alexgeis/CSS-Landing-Page-1](https://github.co
 
 Helpful resources and kudos.
 
-- [Choose an Open Source License](https://choosealicense.com)
+- [Netlify](https://app.netlify.com/)
+<!-- - [Choose an Open Source License](https://choosealicense.com)
 - [Img Shields](https://shields.io)
 - [GitHub Pages](https://pages.github.com)
 - [Font Awesome](https://fontawesome.com)
@@ -245,7 +246,7 @@ Helpful resources and kudos.
 - [Markdown Studio](https://readme.so/editor)
 - []()
 - []()
-- []()
+- []() -->
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
