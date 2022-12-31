@@ -3,11 +3,12 @@
 	flex-direction: column;
 	justify-content: center;
 	gap: 40px;
+	padding: 40px 20px;
 	margin-bottom: 1rem;
 }
 
 #heroContent {
-	max-width: 900px;
+	max-width: 400px;
 }
 #heroContent > * {
 	margin-bottom: 0.7rem;

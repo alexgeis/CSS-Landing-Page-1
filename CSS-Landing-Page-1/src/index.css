@@ -12,6 +12,7 @@
 
 	color-scheme: light dark;
 	color: rgba(255, 255, 255, 0.87);
+
 	--back-color: #1f2937;
 	--light-color: white;
 
@@ -23,16 +24,7 @@
 }
 
 body {
-	display: flex;
-	flex-direction: column;
-	/* place-items: center; */
-	min-width: 320px;
-	max-width: 1000px;
-	min-height: 100vh;
-	background-color: var(--back-color);
-	color: var(--light-color);
-	margin: 0 auto;
-	padding: 0.2rem;
+	overflow-x: hidden;
 }
 
 h1 {

@@ -4,5 +4,13 @@
 	padding: 0 20px;
 	position: relative;
 	min-height: 100vh;
-	border: 1px solid var(--light-color);
+	/* border: 1px solid var(--light-color); */
+	display: flex;
+	flex-direction: column;
+}
+
+@media only screen and (max-width: 600px) {
+	#root {
+		padding: 0;
+	}
 }
